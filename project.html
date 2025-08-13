@@ -2,43 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet">
-    <title>My Top 3 TV Shows</title>
+    <title>My TV Shows</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <h1>My Top 3 TV Shows</h1>
 
-        <div>
-            <h2>About</h2>
-            <p>These are my all-time favorite TV shows — each one has left a huge impact on me with unforgettable stories, characters, and emotional moments.</p>
-        </div>
+    <a href="#maincontent" class="skip-link">Skip to Main Content</a>
 
-        <div>
-            <h2>Quick Facts</h2>
-            <h3>Show List</h3>
-            <ul>
-                <li>Breaking Bad</li>
-                <li>The Walking Dead</li>
-                <li>Attack on Titan</li>
-            </ul>
+    <nav>
+        <img src="images/logo.png" alt="Site Logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shows.html">TV Shows</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
 
-            <a href="https://www.imdb.com/chart/toptv/"><h3>See More Top Rated TV Shows</h3></a>
-            <ol>
-                <li><strong>Breaking Bad</strong> — IMDb Rating: 9.5</li>
-                <li>The Walking Dead — IMDb Rating: 8.1</li>
-                <li>Attack on Titan — IMDb Rating: 9.1</li>
-            </ol>
-        </div>
+    <main id="maincontent">
+        <h1>My 3 Best TV Shows</h1>
 
-        <div>
-            <h2>Gallery</h2>
-            <img src="breakingbad.jpg" alt="Breaking Bad Poster" width="10%">
-            <img src="walkingdead.jpg" alt="The Walking Dead Poster" width="10%">
-            <img src="aot.jpg" alt="Attack on Titan Poster" width="10%">
-        </div>
+        <section class="grid">
+            <div>
+                <h2>Breaking Bad</h2>
+                <img src="images/breakingbad.jpg" alt="Breaking Bad Poster">
+                <p>A chemistry teacher turned meth kingpin...</p>
+            </div>
+            <div>
+                <h2>The Walking Dead</h2>
+                <img src="images/walkingdead.jpg" alt="The Walking Dead Poster">
+                <p>A post-apocalyptic world filled with zombies...</p>
+            </div>
+            <div>
+                <h2>Attack on Titan</h2>
+                <img src="images/aot.jpg" alt="Attack on Titan Poster">
+                <p>Humanity fights for survival against titans...</p>
+            </div>
+        </section>
+
+        <section class="flex">
+            <img src="images/scene1.jpg" alt="Scene 1">
+            <img src="images/scene2.jpg" alt="Scene 2">
+            <img src="images/scene3.jpg" alt="Scene 3">
+        </section>
     </main>
+
 </body>
 </html>
