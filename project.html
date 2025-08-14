@@ -3,49 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My TV Shows</title>
+    <title>My Top 3 TV Shows</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <a href="#maincontent" class="skip-link">Skip to Main Content</a>
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
 
     <nav>
-        <img src="images/logo.png" alt="Site Logo">
+        <img src="images/tv-icon.png" alt="TV Icon">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="shows.html">TV Shows</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="#breaking-bad">Breaking Bad</a></li>
+            <li><a href="#walking-dead">The Walking Dead</a></li>
+            <li><a href="#attack-on-titan">Attack on Titan</a></li>
         </ul>
     </nav>
 
-    <main id="maincontent">
-        <h1>My 3 Best TV Shows</h1>
-
-        <section class="grid">
+    <main id="main-content">
+        <h1>My Top 3 TV Shows</h1>
+        <section id="breaking-bad" class="grid">
+            <img src="images/breakingbad.jpg" alt="Breaking Bad Poster">
             <div>
                 <h2>Breaking Bad</h2>
-                <img src="images/breakingbad.jpg" alt="Breaking Bad Poster">
-                <p>A chemistry teacher turned meth kingpin...</p>
+                <p>A chemistry teacher turned methamphetamine producer teams up with a former student in this gripping crime drama.</p>
             </div>
+        </section>
+
+        <section id="walking-dead" class="grid">
+            <img src="images/walkingdead.jpg" alt="The Walking Dead Poster">
             <div>
                 <h2>The Walking Dead</h2>
-                <img src="images/walkingdead.jpg" alt="The Walking Dead Poster">
-                <p>A post-apocalyptic world filled with zombies...</p>
+                <p>Survivors of a zombie apocalypse struggle to stay alive while navigating a dangerous and ever-changing world.</p>
             </div>
+        </section>
+
+        <section id="attack-on-titan" class="grid">
+            <img src="images/aot.jpg" alt="Attack on Titan Poster">
             <div>
                 <h2>Attack on Titan</h2>
-                <img src="images/aot.jpg" alt="Attack on Titan Poster">
-                <p>Humanity fights for survival against titans...</p>
+                <p>In a world besieged by man-eating Titans, humanity’s last hope lies in the hands of determined soldiers.</p>
             </div>
         </section>
-
-        <section class="flex">
-            <img src="images/scene1.jpg" alt="Scene 1">
-            <img src="images/scene2.jpg" alt="Scene 2">
-            <img src="images/scene3.jpg" alt="Scene 3">
-        </section>
     </main>
-
 </body>
 </html>
